@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3001/proxy-submit-form',
+  baseURL: 'http://localhost:3001/submit-form',
   headers: {
     'Content-Type': 'application/json',
   },

@@ -1,0 +1,26 @@
+.text-container {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    text-align: left;
+  }
+
+  .text-container h1 {
+    font-size: 43px; /* Tamanho da fonte para o título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+  }
+  
+  .text-container p {
+    font-size: 20px; /* Tamanho da fonte para o parágrafo */
+    line-height: 2; /* Espaçamento entre linhas */
+  }
+
+  .lista-destaques {
+    font-size: 18px; /* Aumenta o tamanho da fonte para 18px */
+  }
+  
+  .lista-destaques li {
+    margin-bottom: 10px; /* Adiciona espaço entre os itens da lista */
+  }
+  
+  .lista-destaques strong {
+    font-size: 20px; /* Torna os títulos dos itens um pouco maiores */
+  }

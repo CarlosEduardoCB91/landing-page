@@ -1,0 +1,33 @@
+.typeForm {
+    margin: 10px 10px;
+    align-items: top; 
+}
+
+.typeForm form {
+    max-width: 100%;
+    padding: 10px 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0 ,0, 0.08);
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 10px 20px;
+    background-color: #7e7a7a4b;
+    border-radius: 10px;
+    padding: 36px 64px;
+    margin: 10px 20px;
+ 
+  }
+  
+  .form-container {
+    width: 40%; /* Ajuste a largura conforme necessário */
+  }
+  
+  

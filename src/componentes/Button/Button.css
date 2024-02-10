@@ -1,0 +1,32 @@
+/* Estilos para o botão */
+.custom-button {
+    display: inline-block;
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    background-color: #3460db; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    font-size: 23px; /* Tamanho da fonte do botão */
+    font-weight: bold; /* Peso da fonte do botão */
+    border: none; /* Remova a borda do botão */
+    border-radius: 3px; /* Arredondar as bordas do botão */
+    cursor: pointer; /* Mude o cursor ao passar o mouse sobre o botão */
+    transition: background-color 0.3s, color 0.3s; /* Efeitos de transição suave */
+    text-decoration: none; /* Remova a decoração de texto (sublinhado) */
+  }
+  
+  /* Estilos quando o mouse passa sobre o botão */
+  .custom-button:hover {
+    background-color: #2980b9; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  /* Estilos para o botão quando está desativado */
+  .custom-button:disabled {
+    background-color: #bdc3c7; /* Cor de fundo do botão desativado */
+    cursor: not-allowed; /* Cursor indicando que o botão está desativado */
+  }
+
+.button {
+    align-self: flex-start; /* Isso posicionará o botão à esquerda */
+    margin-right: 20px; /* Ajuste a margem superior conforme necessário */
+    padding: 30px 20px;
+}
+
